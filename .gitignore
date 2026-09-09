@@ -1,0 +1,41 @@
+# DATA — DO NOT COMMIT
+*.csv
+*.tsv
+*.txt
+*.xlsx
+*.xls
+
+*.vcf
+*.vcf.gz
+*.bcf
+
+*.bam
+*.bai
+*.sam
+*.cram
+*.crai
+
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+
+nbconvert_env/
+InputFiles/
+OutputFiles/
+data/
+results/
+figures/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+
+# OS
+.DS_Store
+Thumbs.db
