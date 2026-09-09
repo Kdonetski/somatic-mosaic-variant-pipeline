@@ -1,4 +1,4 @@
-\# Somatic Mosaic Variant Analysis
+# Somatic Mosaic Variant Analysis
 
 
 
@@ -6,7 +6,7 @@ Code for sequencing QC, annotation, filtering, and candidate prioritization of s
 
 
 
-\## Overview
+## Overview
 
 
 
@@ -22,13 +22,13 @@ The analysis incorporates several external annotation resources:
 
 
 
-\- \*\*ClinVar\*\* for clinical pathogenicity classifications
+- **ClinVar** for clinical pathogenicity classifications
 
-\- \*\*OncoKB\*\* for oncogenicity and cancer-related variant annotations
+- **OncoKB** for oncogenicity and cancer-related variant annotations
 
-\- \*\*gnomAD\*\* for population allele frequencies
+- **gnomAD** for population allele frequencies
 
-\- \*\*SpliceAI\*\* and other functional annotations for additional evidence of potential variant impact
+- **SpliceAI** and other functional annotations for additional evidence of potential variant impact
 
 
 
@@ -36,7 +36,7 @@ Candidate variants are evaluated through multiple filtering branches that apply 
 
 
 
-\## Analysis Workflow
+## Analysis Workflow
 
 
 
@@ -44,7 +44,7 @@ The repository contains notebooks covering two main components of the analysis.
 
 
 
-\### Quality Control
+### Quality Control
 
 
 
@@ -52,7 +52,7 @@ QC notebooks examine sequencing and variant characteristics prior to candidate f
 
 
 
-\### Variant Annotation and Prioritization
+### Variant Annotation and Prioritization
 
 
 
@@ -60,31 +60,31 @@ The downstream workflow processes candidate variants through annotation and filt
 
 
 
-\## Analysis Workflow
+## Analysis Workflow
 
 
 
-1\. \*\*Variant calling\*\*: Candidate variants are identified using Mutect2 and DeepVariant.
+1. **Variant calling**: Candidate variants are identified using Mutect2 and DeepVariant.
 
-2\. \*\*Initial QC and filtering\*\*: Variants are filtered using sequencing quality, allele frequency, alternate-read depth, and related criteria.
+2. **Initial QC and filtering**: Variants are filtered using sequencing quality, allele frequency, alternate-read depth, and related criteria.
 
-3\. \*\*Annotation\*\*: Variants are annotated with external clinical, population, and functional databases.
+3. **Annotation**: Variants are annotated with external clinical, population, and functional databases.
 
-4\. \*\*Evidence-based filtering\*\*: Candidate variants are evaluated across three complementary branches using:
+4. **Evidence-based filtering**: Candidate variants are evaluated across three complementary branches using:
 
-&#x20;  - ClinVar pathogenicity classifications
+   - ClinVar pathogenicity classifications
 
-&#x20;  - OncoKB oncogenicity annotations
+   - OncoKB oncogenicity annotations
 
-&#x20;  - gnomAD population frequencies and functional evidence such as SpliceAI
+   - gnomAD population frequencies and functional evidence such as SpliceAI
 
-5\. \*\*Integration of filtering branches\*\*: Results from the three branches are combined into a unified candidate set.
+5. **Integration of filtering branches**: Results from the three branches are combined into a unified candidate set.
 
-6\. \*\*Candidate prioritization and validation\*\*: Prioritized variants are reviewed manually and can be evaluated using the Integrative Genomics Viewer (IGV), mosaic-specific callers, and experimental validation.
+6. **Candidate prioritization and validation**: Prioritized variants are reviewed manually and can be evaluated using the Integrative Genomics Viewer (IGV), mosaic-specific callers, and experimental validation.
 
 
 
-\## Repository Structure
+## Repository Structure
 
 
 
@@ -102,5 +102,9 @@ notebooks/
 
 └── exploratory/
 
-&#x20;   └── additional analyses and investigations
+    └── additional analyses and investigations
 
+```text
+notebooks/
+...
+```
