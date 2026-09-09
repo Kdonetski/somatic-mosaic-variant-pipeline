@@ -83,28 +83,14 @@ The downstream workflow processes candidate variants through annotation and filt
 6. **Candidate prioritization and validation**: Prioritized variants are reviewed manually and can be evaluated using the Integrative Genomics Viewer (IGV), mosaic-specific callers, and experimental validation.
 
 
-
 ## Repository Structure
 
-
-
 ```text
-
 notebooks/
-
 ├── qc/
-
 │   └── sequencing QC and exploratory analyses
-
 ├── workflow/
-
 │   └── annotation, filtering, and candidate prioritization
-
 └── exploratory/
-
     └── additional analyses and investigations
-
-```text
-notebooks/
-...
 ```
