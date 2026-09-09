@@ -70,7 +70,7 @@ The downstream workflow processes candidate variants through annotation and filt
 
 3. **Annotation**: Variants are annotated with external clinical, population, and functional databases.
 
-4. **Evidence-based filtering**: Candidate variants are evaluated across three complementary branches using:
+4. **Candidate filtering**: Candidate variants are evaluated across three complementary branches using:
 
    - ClinVar pathogenicity classifications
 
